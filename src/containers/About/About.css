@@ -1,0 +1,109 @@
+.lenovo__whatlenovo {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+    background: var(--color-footer);
+
+    background: linear-gradient(158deg, rgba(61,0,27,1) 0%, rgba(16,0,7,1) 100%);
+      
+}
+
+.lenovo__whatlenovo-feature {
+    display: flex;
+}
+
+/* Customizing feature component as per needs */
+.lenovo__whatlenovo-feature .lenovo__features-container__feature {
+    margin: 0;
+}
+
+/* Customizing feature component as per needs */
+.lenovo__whatlenovo-feature .lenovo__features-container_feature-text {
+    max-width: 700px;
+}
+
+.lenovo__whatlenovo-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 4rem 0 2rem;
+}
+
+.lenovo__whatlenovo-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    max-width: 510px;
+}
+
+.lenovo__whatlenovo-heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.lenovo__whatlenovo-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin-top: 2rem;
+}
+
+/* Customizing feature component as per needs */
+.lenovo__whatlenovo-container .lenovo__features-container__feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+/* Customizing feature component as per needs */
+.lenovo__whatlenovo-container .lenovo__features-container_feature-text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .lenovo__whatlenovo-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .lenovo__whatlenovo-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* Customizing feature component as per needs */
+    .lenovo__whatlenovo-feature .lenovo__features-container__feature {
+        flex-direction: column;
+    }
+
+    /* Customizing feature component as per needs */
+    .lenovo__whatlenovo-feature .lenovo__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .lenovo__whatlenovo-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+    .lenovo__whatlenovo-container .lenovo__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
